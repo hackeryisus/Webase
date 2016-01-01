@@ -1,7 +1,20 @@
+@import "normalize";
+
 $mainfont:    Helvetica, sans-serif;
 $black: #333;
+$white: #e6e6e6;
+$blue: #0f3a69;
 
 body {
   font: 100% $mainfont;
-  color: $black;
+  color: $white;
+  background-color: $blue;
+}
+
+a {
+  transition: transform 1s;
+}
+
+a {
+  border-radius: 5px
 }
